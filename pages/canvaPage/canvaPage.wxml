@@ -1,0 +1,5 @@
+<view class="container">
+  <canvas bindtouchstart="tsHandler" bindtouchmove="tmHandler" bindtouchend="teHandler" canvas-id="myCanvas1" class="canvas" />
+  <view>x: {{x}} -- y: {{y}}</view>
+  <view class="hi">Hello, World!</view>
+</view>
